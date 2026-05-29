@@ -465,10 +465,21 @@ const faqs = [
         padding: 0;
         box-sizing: border-box;
       }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
 
       html {
         scroll-behavior: smooth;
         scroll-padding-top: 80px;
+      }
+
+      html,
+      body {
+        overflow-x: hidden;
+        max-width: 100%;
       }
 
       body {
@@ -1309,9 +1320,13 @@ const faqs = [
         }
         .about-image {
           width: 100%;
-          max-width: 360px;
-          height: 420px;
+          max-width: 320px;
+          height: 320px;
           margin: 0 auto;
+        }
+        .container {
+          padding-left: 1.25rem;
+          padding-right: 1.25rem;
         }
         .trust-row {
           gap: 44px;
@@ -1341,6 +1356,13 @@ const faqs = [
         }
         .philosophy-quote {
           font-size: 24px;
+        }
+        .services-grid {
+          grid-template-columns: 1fr;
+        }
+        .trust-row {
+          flex-direction: column;
+          gap: 2rem;
         }
       }
     </style>
