@@ -5,21 +5,21 @@ const services = [
   {
     title: "שטיפה אנרגטית",
     icon: "♻️",
-    desc: "ניקוי שדות האנרגיה מסביב לגוף. מומלץ לתחושת כבדות, עייפות כרונית או תחושת תקיעות.",
+    desc: "ניקוי שדות האנרגיה שמקיפים את הגוף. מתאים לתחושת כבדות, עייפות שלא עוברת, או תחושה שאת סוחבת של אחרים.",
     price: "90 ₪",
     featured: false,
   },
   {
     title: "ניקוי עמוק",
     icon: "🌀",
-    desc: "עבודה עמוקה על טראומות ישנות, חסמים שחוזרים על עצמם, ודפוסים שלא מרפים.",
+    desc: "עבודה על דפוסים שחוזרים, טראומות שנסגרו אבל לא נרפאו, וחסמים שמונעים ממך להתקדם.",
     price: "150 ₪",
     featured: true,
   },
   {
-    title: "ריפוי מרחוק",
+    title: "טיפול מרחוק",
     icon: "🔮",
-    desc: "טיפול אנרגטי מלא מרחוק, ללא צורך בהגעה פיזית. שולחים זמן מפגש ועובדים.",
+    desc: "עובדת אותו דבר גם מרחוק — קובעים זמן, כל אחת בבית שלה, והטיפול מגיע.",
     price: "120 ₪",
     featured: false,
   },
@@ -28,18 +28,18 @@ const services = [
 const whatCards = [
   {
     icon: "⚡",
-    title: "שחרור חסמים",
-    desc: "ניקוי אנרגיות שליליות שנצברו לאורך זמן.",
+    title: "שחרור מה שתקוע",
+    desc: "אנרגיות ישנות, כאבים שלא עיבדת, תחושות שחוזרות — הן יוצאות.",
   },
   {
     icon: "✨",
-    title: "איזון שדות",
-    desc: "החזרת האנרגיה לזרימה טבעית ומאוזנת.",
+    title: "מאוזנת ומחוברת",
+    desc: "כשהאנרגיה זורמת כמו שצריך, הגוף והנפש מרגישים את זה מיד.",
   },
   {
     icon: "🌿",
-    title: "חיבור מחדש",
-    desc: "חיבור לאנרגיית החיים ולמהות הפנימית שלך.",
+    title: "חיבור לעצמך",
+    desc: "לא לאיזו גרסה אידיאלית — לעצמך הממשית, כאן ועכשיו.",
   },
 ];
 
@@ -47,36 +47,36 @@ const steps = [
   {
     n: "1",
     title: "שיחת היכרות",
-    desc: "30 דקות שיחה חינמית להבנת הצרכים שלך.",
+    desc: "שיחה של חצי שעה, בחינם, כדי להבין מה קורה ומה נכון לך.",
   },
   {
     n: "2",
-    title: "מפגש טיפול",
-    desc: "60-90 דקות עבודה אנרגטית מעמיקה.",
+    title: "פגישת טיפול",
+    desc: "שעה עד שעה וחצי של עבודה אנרגטית אמיתית, נוכחית ומדויקת.",
   },
   {
     n: "3",
-    title: "ליווי לאחר",
-    desc: "מעקב ואינטגרציה של השינויים.",
+    title: "ליווי לאחר הטיפול",
+    desc: "אחרי הפגישה אנחנו בקשר — שינויים לוקחים זמן, וחשוב לי שלא תהיי לבד עם זה.",
   },
 ];
 
 const testimonials = [
   {
     quote:
-      "הגעתי עם תחושת כבדות שליוותה אותי שנים. אחרי מפגש אחד הרגשתי כאילו הורדתי עשרה קילו מהנשמה.",
+      "הגעתי אליה עם כבדות שנשאתי שנים. אחרי פגישה אחת הרגשתי כאילו הורדתי משהו עצום מהגב.",
     name: "שרה ל.",
     city: "תל אביב",
   },
   {
     quote:
-      "הייתי סקפטית לחלוטין, אבל ההמלצה של חברה שכנעה אותי לנסות. מאז אני חוזרת כל חודש.",
+      "הייתי סקפטית ועכשיו אני חוזרת כל חודש. לא חשבתי שזה יהיה הדבר שישנה לי את הגישה.",
     name: "מיכל ר.",
     city: "חיפה",
   },
   {
     quote:
-      "העבודה מרחוק הפתיעה אותי. ממש הרגשתי את השינוי בזמן הטיפול. ממליצה בחום!",
+      "הטיפול מרחוק הפתיע אותי. ממש הרגשתי את זה בזמן אמת. ממליצה לכולן.",
     name: "דנה כ.",
     city: "ירושלים",
   },
@@ -84,31 +84,31 @@ const testimonials = [
 
 const trustStats = [
   { number: "8+", label: "שנות ניסיון" },
-  { number: "200+", label: "לקוחות מרוצים" },
+  { number: "200+", label: "נשים ואנשים שטיפלתי" },
   { number: "3", label: "שיטות עבודה" },
-  { number: "100%", label: "מחויבות אישית" },
+  { number: "100%", label: "נוכחות מלאה בכל פגישה" },
 ];
 
 const faqs = [
   {
-    q: "כמה זמן נמשך הטיפול?",
-    a: "מפגש שטיפה אנרגטית נמשך בין 60 ל-90 דקות. שיחת ההיכרות חינמית ונמשכת כ-30 דקות.",
+    q: "כמה זמן נמשך טיפול?",
+    a: "פגישת שטיפה אנרגטית נמשכת בין שעה לשעה וחצי. שיחת ההיכרות היא חצי שעה וחינמית לגמרי.",
   },
   {
-    q: "מה להביא למפגש?",
-    a: "רק את עצמך. אין צורך בהכנה מיוחדת. מומלץ ללבוש בגדים נוחים.",
+    q: "מה צריך להכין לפני הפגישה?",
+    a: "כלום. רק להגיע (או להיות בבית). מומלץ בגדים נוחים ולא להיות ממהרת אחרי.",
   },
   {
-    q: "האם ניתן לבצע טיפול מרחוק?",
-    a: "כן! הטיפול מרחוק יעיל לא פחות מטיפול פרונטלי. נקבע זמן ואני עובדת מהצד שלי בעוד אתם בבית.",
+    q: "אפשר לעשות טיפול מרחוק?",
+    a: "בהחלט. קובעים זמן, כל אחת בבית שלה, ואני עובדת מהצד שלי. זה עובד אותו דבר.",
   },
   {
-    q: "כמה מפגשים צריך?",
-    a: "תלוי בצרכים. לעתים מפגש אחד מספיק, לעתים מומלצת סדרה קצרה. נחליט יחד אחרי שיחת ההיכרות.",
+    q: "כמה פגישות צריך?",
+    a: "תלוי. יש כאלה שפגישה אחת מספיקה להן, ויש שמגיעות לסדרה. נחליט ביחד אחרי שנדבר.",
   },
   {
-    q: "האם זה כואב?",
-    a: "ממש לא. רוב האנשים חשים נינוחות עמוקה וחום עדין.",
+    q: "כואב?",
+    a: "ממש לא. רוב האנשים מתאפיינים בנינוחות עמוקה, לפעמים בחום קל. יש שמרגישים גלים — זה בסדר גמור.",
   },
 ];
 ---
@@ -127,7 +127,7 @@ const faqs = [
         <a href="#contact">צור קשר</a>
       </nav>
 
-      <a href="#contact" class="btn btn-gold nav-cta" data-testid="nav-book">קבע פגישה</a>
+      <a href="#contact" class="btn btn-gold nav-cta" data-testid="nav-book">לתיאום פגישה</a>
 
       <button
         class="hamburger"
@@ -146,7 +146,7 @@ const faqs = [
       <a href="#how-it-works">תהליך</a>
       <a href="#testimonials">המלצות</a>
       <a href="#contact">צור קשר</a>
-      <a href="#contact" class="btn btn-gold">קבע פגישה</a>
+      <a href="#contact" class="btn btn-gold">לתיאום פגישה</a>
     </nav>
   </header>
 
@@ -160,14 +160,14 @@ const faqs = [
     </div>
     <div class="hero-content">
       <p class="eyebrow">✦ שטיפה אנרגטית ✦</p>
-      <h1 class="hero-title">שחררי מה שמכביד עלייך</h1>
+      <h1 class="hero-title">לשחרר את מה שמכביד</h1>
       <p class="hero-subhead">
-        שטיפה אנרגטית עמוקה לניקוי שדות האנרגיה, שחרור חסמים, וחיבור מחדש למהות
-        שלך.
+        שטיפה אנרגטית היא דרך להניח את מה שאת סוחבת. ניקוי, שחרור, ותחושת קלילות
+        מחדש.
       </p>
       <div class="hero-ctas">
-        <a href="#contact" class="btn btn-gold">התחילי את המסע</a>
-        <a href="#what" class="btn btn-ghost">גלי עוד</a>
+        <a href="#contact" class="btn btn-gold">בואי נתחיל</a>
+        <a href="#what" class="btn btn-ghost">איך זה עובד?</a>
       </div>
     </div>
     <a href="#philosophy" class="scroll-indicator" aria-label="גלול למטה">
@@ -179,7 +179,7 @@ const faqs = [
   <section id="philosophy" class="philosophy" data-testid="philosophy">
     <div class="divider-line"></div>
     <blockquote class="philosophy-quote">
-      "הגוף יודע לרפא את עצמו — לפעמים הוא פשוט צריך מישהו שיפנה את הדרך."
+      "הגוף יודע לרפא — לפעמים הוא רק צריך שמישהי תפנה לו מקום."
     </blockquote>
     <p class="philosophy-attr">— אלכסנדרה</p>
   </section>
@@ -187,8 +187,8 @@ const faqs = [
   <!-- ============ WHAT IS ENERGETIC WASH ============ -->
   <section id="what" class="what" data-testid="what">
     <div class="container">
-      <h2 class="section-heading center">מהי שטיפה אנרגטית?</h2>
-      <p class="what-sub">שיטה עתיקה לניקוי שדות האנרגיה סביב הגוף</p>
+      <h2 class="section-heading center">מה זה בכלל שטיפה אנרגטית?</h2>
+      <p class="what-sub">שיטה שמנקה את האנרגיה שנצמדת אלינו מחיים, קשרים וטראומות</p>
       <div class="what-grid">
         {
           whatCards.map((c) => (
@@ -217,16 +217,17 @@ const faqs = [
       <div class="about-text">
         <h2 class="section-heading">קצת עליי</h2>
         <p>
-          שמי אלכסנדרה, ומזה למעלה מ-8 שנים אני מלווה אנשים בתהליכי ריפוי אנרגטי
-          עמוק. עבדתי עם מעל 200 אנשים, וכל מפגש מחדש מוכיח לי שהגוף והנשמה תמיד
-          יודעים את הדרך — הם רק צריכים ליווי עדין.
+          קוראים לי אלכסנדרה, ואני עושה את זה כבר יותר מ-8 שנים. עבדתי עם מאות
+          נשים ואנשים שהגיעו אליי עם תחושת כבדות, תקיעות, או פשוט ידיעה שמשהו לא
+          זורם. כל מפגש מלמד אותי מחדש שהגוף רוצה להחלים — לפעמים הוא רק צריך
+          רשות.
         </p>
         <div class="about-badges">
           <span class="about-badge">8+ שנות ניסיון</span>
           <span class="about-badge">200+ לקוחות</span>
           <span class="about-badge">3 שיטות עבודה</span>
         </div>
-        <a href="#contact" class="text-link">בואי נעבוד יחד ←</a>
+        <a href="#contact" class="text-link">בואי נדבר ←</a>
       </div>
     </div>
   </section>
@@ -234,7 +235,7 @@ const faqs = [
   <!-- ============ SERVICES ============ -->
   <section id="services" class="services" data-testid="services">
     <div class="container">
-      <h2 class="section-heading center">בחרי את הדרך שלך</h2>
+      <h2 class="section-heading center">איך אפשר לעבוד ביחד</h2>
       <div class="services-grid">
         {
           services.map((s) => (
@@ -248,7 +249,7 @@ const faqs = [
               <p class="service-desc">{s.desc}</p>
               <p class="service-price">{s.price}</p>
               <a href="#contact" class="btn btn-outline">
-                קבעי תור
+                לתיאום פגישה
               </a>
             </div>
           ))
@@ -279,7 +280,7 @@ const faqs = [
   <!-- ============ TESTIMONIALS ============ -->
   <section id="testimonials" class="testimonials" data-testid="testimonials">
     <div class="container">
-      <h2 class="section-heading center">מה הלקוחות אומרים</h2>
+      <h2 class="section-heading center">מה אומרות עליי</h2>
       <div class="testimonials-grid">
         {
           testimonials.map((t) => (
@@ -313,7 +314,7 @@ const faqs = [
   <!-- ============ FAQ ============ -->
   <section id="faq" class="faq" data-testid="faq">
     <div class="container faq-container">
-      <h2 class="section-heading center">שאלות נפוצות</h2>
+      <h2 class="section-heading center">שאלות שכדאי לשאול</h2>
       <div class="faq-list">
         {
           faqs.map((item) => (
@@ -336,30 +337,30 @@ const faqs = [
   <section id="contact" class="contact" data-testid="contact">
     <div class="container contact-container">
       <h2 class="contact-heading">מוכנה להתחיל?</h2>
-      <p class="contact-subtext">קבעי שיחת היכרות חינמית ב-30 דקות</p>
+      <p class="contact-subtext">שיחת ההיכרות חינמית ואין לה מחויבות — בואי פשוט נדבר</p>
       <form class="contact-form" action="#" method="post" data-testid="contact-form">
         <div class="form-row">
           <label>
-            <span>שם מלא</span>
+            <span>שם</span>
             <input type="text" name="name" required />
           </label>
           <label>
-            <span>דוא"ל</span>
+            <span>מייל</span>
             <input type="email" name="email" required />
           </label>
         </div>
         <label>
-          <span>טלפון (אופציונלי)</span>
+          <span>טלפון (לא חובה)</span>
           <input type="tel" name="phone" />
         </label>
         <label>
-          <span>ספרי לי קצת...</span>
+          <span>מה מביא אותך?</span>
           <textarea name="message" rows="4"></textarea>
         </label>
-        <button type="submit" class="btn btn-gold btn-full">שלחי הודעה ✦</button>
+        <button type="submit" class="btn btn-gold btn-full">שלחי ✦</button>
       </form>
       <p class="contact-alt">
-        או צרי קשר ישירות דרך
+        או כתבי לי ישירות באינסטגרם
         <a href="#" class="contact-social" aria-label="Instagram">
           <svg
             width="22"
@@ -388,7 +389,7 @@ const faqs = [
         <a href="#contact">צור קשר</a>
       </nav>
       <div class="footer-divider" aria-hidden="true"></div>
-      <p class="footer-copy">© 2025 כל הזכויות שמורות</p>
+      <p class="footer-copy">© 2025 · כל הזכויות שמורות</p>
     </div>
   </footer>
 
